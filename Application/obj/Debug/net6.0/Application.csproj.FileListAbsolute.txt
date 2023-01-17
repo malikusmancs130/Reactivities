@@ -1,0 +1,17 @@
+S:\New Project\Reactivities\Application\bin\Debug\net6.0\Application.deps.json
+S:\New Project\Reactivities\Application\bin\Debug\net6.0\Application.dll
+S:\New Project\Reactivities\Application\bin\Debug\net6.0\Application.pdb
+S:\New Project\Reactivities\Application\bin\Debug\net6.0\Domain.dll
+S:\New Project\Reactivities\Application\bin\Debug\net6.0\Persistence.dll
+S:\New Project\Reactivities\Application\bin\Debug\net6.0\Domain.pdb
+S:\New Project\Reactivities\Application\bin\Debug\net6.0\Persistence.pdb
+S:\New Project\Reactivities\Application\obj\Debug\net6.0\Application.csproj.AssemblyReference.cache
+S:\New Project\Reactivities\Application\obj\Debug\net6.0\Application.GeneratedMSBuildEditorConfig.editorconfig
+S:\New Project\Reactivities\Application\obj\Debug\net6.0\Application.AssemblyInfoInputs.cache
+S:\New Project\Reactivities\Application\obj\Debug\net6.0\Application.AssemblyInfo.cs
+S:\New Project\Reactivities\Application\obj\Debug\net6.0\Application.csproj.CoreCompileInputs.cache
+S:\New Project\Reactivities\Application\obj\Debug\net6.0\Application.csproj.CopyComplete
+S:\New Project\Reactivities\Application\obj\Debug\net6.0\Application.dll
+S:\New Project\Reactivities\Application\obj\Debug\net6.0\refint\Application.dll
+S:\New Project\Reactivities\Application\obj\Debug\net6.0\Application.pdb
+S:\New Project\Reactivities\Application\obj\Debug\net6.0\ref\Application.dll
