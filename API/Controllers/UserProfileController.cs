@@ -1,35 +1,45 @@
+using Application.UserProfiling;
 using Domain;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.EntityFrameworkCore;
-using Persistence;
 
 namespace API.Controllers
 {
     public class UserProfileController : BaseApiController
     {
-        private readonly DataContext _context;
-        public UserProfileController(DataContext context)
-        {
-            _context = context;
-        }
-
-        [HttpGet]
+      
+      [HttpGet]
       public async Task<ActionResult<List<UserProfile>>> GetAllUser()
       {
-        return await _context.UserProfiles.ToListAsync();
+         return await Mediator.Send(new UsersProfile.Query());
       }
 
      [HttpGet("{id}")]
       public async Task<ActionResult<UserProfile>> GetUserById(Guid id)
       {
-        return await _context.UserProfiles.FindAsync(id);
+        return  await Mediator.Send(new UsersProfileByID.Query{Id=id});
       }
 
-        // [HttpGet("FirstName")]
+      [HttpPost]
 
-        // public async Task<ActionResult<UserProfile>> GetUserByName(string FirstName)
-        // {
-        //     return await _context.UserProfiles.FindAsync(FirstName);
-        // }
+      public async Task<IActionResult> AddNewUser (UserProfile userProfile)
+      {
+        return Ok( await Mediator.Send(new CreateUser.Command{userProfile = userProfile} ));
+      }
+
+      [HttpPut("{Id}")]
+      public async Task <IActionResult> UpdateUser (Guid Id,UserProfile User)
+      {
+          User.Id= Id;
+            return Ok (await Mediator.Send(new EditUser.Command{userProfile=User}));
+      }
+
+    
+
+       [HttpDelete("{id}")]
+        public async Task <IActionResult> DeleteUser(Guid id)
+        {
+            return Ok (await Mediator.Send(new DeleteUser.Command{Id=id}));
+        }
+
     }
 }
