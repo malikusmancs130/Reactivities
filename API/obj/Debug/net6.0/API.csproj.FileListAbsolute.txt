@@ -71,3 +71,8 @@ S:\New Project\Reactivities\API\bin\Debug\net6.0\MediatR.Contracts.dll
 S:\New Project\Reactivities\API\bin\Debug\net6.0\MediatR.Extensions.Microsoft.DependencyInjection.dll
 S:\New Project\Reactivities\API\bin\Debug\net6.0\AutoMapper.dll
 S:\New Project\Reactivities\API\bin\Debug\net6.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+S:\New Project\Reactivities\API\obj\Debug\net6.0\staticwebassets\msbuild.API.Microsoft.AspNetCore.StaticWebAssets.props
+S:\New Project\Reactivities\API\obj\Debug\net6.0\staticwebassets\msbuild.build.API.props
+S:\New Project\Reactivities\API\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.API.props
+S:\New Project\Reactivities\API\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.API.props
+S:\New Project\Reactivities\API\obj\Debug\net6.0\staticwebassets.pack.json
