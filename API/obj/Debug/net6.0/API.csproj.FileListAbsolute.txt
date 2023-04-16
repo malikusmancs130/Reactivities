@@ -79,3 +79,12 @@ S:\New Project\Reactivities\API\obj\Debug\net6.0\staticwebassets.pack.json
 S:\New Project\Reactivities\API\bin\Debug\net6.0\FluentValidation.dll
 S:\New Project\Reactivities\API\bin\Debug\net6.0\FluentValidation.AspNetCore.dll
 S:\New Project\Reactivities\API\bin\Debug\net6.0\FluentValidation.DependencyInjectionExtensions.dll
+S:\New Project\Reactivities\API\bin\Debug\net6.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+S:\New Project\Reactivities\API\bin\Debug\net6.0\Microsoft.IdentityModel.Abstractions.dll
+S:\New Project\Reactivities\API\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+S:\New Project\Reactivities\API\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+S:\New Project\Reactivities\API\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+S:\New Project\Reactivities\API\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
+S:\New Project\Reactivities\API\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+S:\New Project\Reactivities\API\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+S:\New Project\Reactivities\API\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll

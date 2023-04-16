@@ -8,7 +8,6 @@ interface Props {
 }
 
 export default function ActivityListItem({ activity }: Props) {
- 
   return (
     <Segment.Group>
       <Segment>
@@ -26,22 +25,23 @@ export default function ActivityListItem({ activity }: Props) {
       </Segment>
       <Segment>
         <span>
-            <Icon name='clock'/>
-                {format (activity.date!, 'dd MMM yyyy h:mm aa')}
-         
-            <Icon name='marker'/>
-                {activity.venue}
-              
+          <Icon name="clock" />
+          {format(activity.date!, "dd MMM yyyy h:mm aa")}
+          <Icon name="marker" />
+          {activity.venue}
         </span>
       </Segment>
-      <Segment secondary>
-        Attendees go here
-      </Segment>
+      <Segment secondary>Attendees go here</Segment>
       <Segment clearing>
-        <span>
-            {activity.description}
-        </span>
-        <Button as={Link} to={`/activities/${activity.id}`} color='teal' floated='right' content='View'/>
+        <span>{activity.description}</span>
+        <Button
+          as={Link}
+          to={`/activities/${activity.id}`}
+          color="teal"
+          floated="right"
+          icon='eye '
+          content="View"
+        />
       </Segment>
     </Segment.Group>
   );
