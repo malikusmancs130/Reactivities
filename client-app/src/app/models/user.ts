@@ -1,8 +1,13 @@
 export interface User {
-    id: string;
-    firstName: string;
-    lastName: string;
+    userName : string;
+    displayName: string;
+    token: string;
+    image?: string;
+}
+
+export interface UserFormValue {
     email: string;
-    city: string;
-    dateOfBirth: string;
+    password: string;
+    displayName?: string;
+    username?: string;
 }
