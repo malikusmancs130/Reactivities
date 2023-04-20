@@ -88,3 +88,5 @@ S:\New Project\Reactivities\API\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt
 S:\New Project\Reactivities\API\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
 S:\New Project\Reactivities\API\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
 S:\New Project\Reactivities\API\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+S:\New Project\Reactivities\API\bin\Debug\net6.0\Infrastructuree.dll
+S:\New Project\Reactivities\API\bin\Debug\net6.0\Infrastructuree.pdb

@@ -15,3 +15,11 @@ DbContext or DataContext in our case, we create DB set and these represent the t
  once all set => dotnet ef migrations add InitialCreate -s API -p Persistence 
 
  here -s is Start of project and -p is in which project we want to add migration.
+
+ add migrations : 
+
+ dotnet ef migrations add NameOfMigration (AddAttendee) -p ProjectWhereMigrationIs (Persistence) -s MainLevel (API)
+
+ remove migrations:
+
+ dotnet ef migrations remove -p Persistence -s API

@@ -1106,6 +1106,19 @@
           "bin/placeholder/Domain.dll": {}
         }
       },
+      "Infrastructuree/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "Application": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Infrastructuree.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Infrastructuree.dll": {}
+        }
+      },
       "Persistence/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
@@ -2633,6 +2646,11 @@
       "path": "../Domain/Domain.csproj",
       "msbuildProject": "../Domain/Domain.csproj"
     },
+    "Infrastructuree/1.0.0": {
+      "type": "project",
+      "path": "../Infrastructuree/Infrastructuree.csproj",
+      "msbuildProject": "../Infrastructuree/Infrastructuree.csproj"
+    },
     "Persistence/1.0.0": {
       "type": "project",
       "path": "../Persistence/Persistence.csproj",
@@ -2642,6 +2660,7 @@
   "projectFileDependencyGroups": {
     "net6.0": [
       "Application >= 1.0.0",
+      "Infrastructuree >= 1.0.0",
       "Microsoft.AspNetCore.Authentication.JwtBearer >= 6.0.16",
       "Microsoft.EntityFrameworkCore.Design >= 6.0.12",
       "Swashbuckle.AspNetCore >= 6.2.3",
@@ -2687,6 +2706,9 @@
           "projectReferences": {
             "S:\\New Project\\Reactivities\\Application\\Application.csproj": {
               "projectPath": "S:\\New Project\\Reactivities\\Application\\Application.csproj"
+            },
+            "S:\\New Project\\Reactivities\\Infrastructuree\\Infrastructuree.csproj": {
+              "projectPath": "S:\\New Project\\Reactivities\\Infrastructuree\\Infrastructuree.csproj"
             }
           }
         }
