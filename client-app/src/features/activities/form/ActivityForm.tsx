@@ -43,7 +43,7 @@ export default observer( function ActivityForm(){
                 ...activity,
                 id:uuid()
             }
-            createActivity(newActivity).then(()=> navigate(`/activities/${activity.id}`))
+            createActivity(newActivity).then(()=> navigate(`/activities/${newActivity.id}`))
         }
         else 
         {

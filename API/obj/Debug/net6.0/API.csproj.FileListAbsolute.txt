@@ -90,3 +90,5 @@ S:\New Project\Reactivities\API\bin\Debug\net6.0\Microsoft.IdentityModel.Protoco
 S:\New Project\Reactivities\API\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
 S:\New Project\Reactivities\API\bin\Debug\net6.0\Infrastructuree.dll
 S:\New Project\Reactivities\API\bin\Debug\net6.0\Infrastructuree.pdb
+S:\New Project\Reactivities\API\bin\Debug\net6.0\CloudinaryDotNet.dll
+S:\New Project\Reactivities\API\bin\Debug\net6.0\Newtonsoft.Json.dll
